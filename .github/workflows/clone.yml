@@ -18,4 +18,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            gh repo clone sekaraditi/sekaraditi.github.io
+            git clone sekaraditi/sekaraditi.github.io
