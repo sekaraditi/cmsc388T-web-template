@@ -19,5 +19,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-	  	cd sekaraditi.github.io
-	  	git pull
+		cd sekaraditi.github.io 
+
+		git pull
