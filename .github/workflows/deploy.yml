@@ -20,4 +20,3 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
 	  	cd sekaraditi.github.io
-		git pull
