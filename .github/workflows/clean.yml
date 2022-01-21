@@ -18,6 +18,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-	   unalias rm 
-
-	   rm -rf sekaraditi.github.io
+	  	unalias rm 
+		rm -rf sekaraditi.github.io
