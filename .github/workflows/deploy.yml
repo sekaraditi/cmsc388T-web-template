@@ -21,3 +21,4 @@ jobs:
           script: |
            cd sekaraditi.github.io 
            git pull
+           cp ./* ../../pub/
